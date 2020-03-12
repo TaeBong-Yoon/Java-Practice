@@ -12,8 +12,7 @@ public class whileif {
 			System.out.println("프로그램을 시작하려면 enter 키를 누르세요");
 			keyCode = scan.next().charAt(0);
 			if ((keyCode == 13 && keyCode == 10)) {
-				//keyCode = System.in.read();
-				//keyCode = scan.nextInt();
+			
 				System.out.println("프로그램을 시작합니다.");
 				System.out.println("PIN 번호 네자리를 입력하세요.");
 
