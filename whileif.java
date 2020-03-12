@@ -3,7 +3,7 @@ package practice;
 import java.util.*;
 
 public class whileif {
-
+	
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
@@ -35,8 +35,9 @@ public class whileif {
 						}
 					}
 				}
-			}while (keyCode != 13 && keyCode != 10);
-		} while (keyCode != 13 && keyCode != 10);
+			}
+		}System.out.println("재시작 하려면 enter키를 누르세요"); 
+		while (keyCode == 13 && keyCode == 10);
 	}
 	
 }
